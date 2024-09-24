@@ -1,4 +1,4 @@
 # Author: Rebekah Beltran
-# My first Python lab in my CIS129 course
-# Learning as I go
-# Possibly doing this right
+print('My first Python lab in my CIS129 course')
+print('Learning as I go')
+print('Possibly doing this right')
