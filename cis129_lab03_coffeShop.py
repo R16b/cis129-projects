@@ -1,0 +1,18 @@
+print('***************************************')
+print('My Coffee and Muffin Shop')
+print('Number of coffees bought?')
+value1=int(input())
+print('Number of muffins bought?')
+value2=int(input())
+print('***************************************')
+print('***************************************')
+print('My Coffee and Muffin Shop Receipt')
+coffee=value1*5
+print(str(value1)+ " Coffee at $5 each: $ " + str(coffee)+ ".00")
+muffin=value2*4
+print(str(value2)+ " Muffins at $4 each: $ " + str(muffin)+ ".00")
+((coffee+muffin)*0.06)
+print("6% tax: " + str((coffee+muffin)*0.06))
+print('---------')
+print("Total: " + str(((coffee+muffin)+((coffee+muffin)*0.06))))
+print('***************************************')
